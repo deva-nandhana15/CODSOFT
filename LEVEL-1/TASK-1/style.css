@@ -79,7 +79,7 @@ header {
 .socials {
   position: absolute;
   right: 40px;
-  top: 80%;
+  top: 88%;
   transform: translateY(-50%);
   display: flex;
   flex-direction: column;
