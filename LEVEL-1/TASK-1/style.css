@@ -12,6 +12,17 @@ body {
   overflow: hidden;
 }
 
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1); /* 10% opacity black */
+  z-index: 1;
+  pointer-events: none; /* So it doesn’t block clicks */
+}
+
 .container {
   display: flex;
   flex-direction: column;
