@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Georgia', serif;
-  background-color: #1a0003;
+  background-color: #2A1313;
   color: white;
   height: 100vh;
   overflow: hidden;
@@ -28,7 +28,7 @@ header {
 }
 
 .logo {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: bold;
 }
 
