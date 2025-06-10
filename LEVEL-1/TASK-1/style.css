@@ -201,3 +201,9 @@ header {
   left: 1000px;
 }
 
+.close-button{
+  position: absolute;
+  font-size: 30px;
+  top:50px;
+  right:50px;
+}
