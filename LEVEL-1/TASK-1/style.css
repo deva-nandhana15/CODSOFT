@@ -18,9 +18,9 @@ body {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.1); /* 10% opacity black */
+  background-color: rgba(0, 0, 0, 0.1); 
   z-index: 1;
-  pointer-events: none; /* So it doesn’t block clicks */
+  pointer-events: none; 
 }
 
 .container {
