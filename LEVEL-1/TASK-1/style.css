@@ -107,3 +107,12 @@ header {
   transform: scale(1.2);
   color: #ffcccb;
 }
+
+.about-img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: contain;
+  border: 3px solid whitesmoke;
+  box-shadow: 0 0 15px rgba(255, 204, 203, 0.5);
+}
