@@ -201,9 +201,17 @@ header {
   left: 1000px;
 }
 
-.close-button{
-  position: absolute;
-  font-size: 30px;
-  top:50px;
-  right:50px;
+.close-btn {
+  position: fixed;
+  font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 34px;
+  top: 50px;
+  right: 100px;
+  color: white;
+  text-decoration: none;
+}
+
+.close-btn:hover{
+  color:#ffcccb;
+  transform: scale(1.1);
 }
