@@ -215,3 +215,63 @@ header {
   color:#ffcccb;
   transform: scale(1.1);
 }
+
+.skills-head h1{
+  position: relative;
+  text-align: center;
+  margin-top: 4%;
+  font-size: 80px;
+  opacity: 0.2;
+}
+
+.skills-head h2{
+  position: absolute;
+  left: 650px;
+  top:80px;
+  font-size: 35px;
+  border-bottom: 2px solid white;
+}
+
+.skills-box1{
+  width: 330px;
+  height: 390px;
+  background-color: #705E5E;
+  object-fit: contain;
+  box-shadow: 0 0 15px rgba(255, 204, 203, 0.2);
+  position: absolute;
+  left: 130px;
+  top: 30%;
+}
+
+.skills-box2{
+  width: 330px;
+  height: 390px;
+  background-color: #705E5E;
+  object-fit: contain;
+  box-shadow: 0 0 15px rgba(255, 204, 203, 0.2);
+  position: absolute;
+  left: 590px;
+  top: 30%;
+}
+
+.skills-box3{
+  width: 330px;
+  height: 390px;
+  background-color: #705E5E;
+  object-fit: contain;
+  box-shadow: 0 0 15px rgba(255, 204, 203, 0.2);
+  position: absolute;
+  left: 1050px;
+  top: 30%;
+}
+
+.overlay-boxes{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1); 
+  z-index: 1;
+  pointer-events: none; 
+}
