@@ -243,6 +243,33 @@ header {
   top: 30%;
 }
 
+.skills-box1 h3{
+  position: absolute;
+  left: 35px;
+  top: 4%;
+  font-size: 24px;
+  border-bottom: 2px solid white;
+}
+
+.skills-box1 ul{
+  position: absolute;
+  font-size: 20px;
+  line-height: 30px;
+  left: 50px;
+  top: 17%;
+}
+
+.overlay-boxes1{
+  position: fixed;
+  left: 130px;
+  top: 30%;
+  height: 390px;
+  width: 330px;
+  background-color: rgba(0, 0, 0, 0.1); 
+  z-index: 1;
+  pointer-events: none; 
+}
+
 .skills-box2{
   width: 330px;
   height: 390px;
@@ -252,6 +279,33 @@ header {
   position: absolute;
   left: 590px;
   top: 30%;
+}
+
+.skills-box2 h3{
+  position: absolute;
+  left: 35px;
+  top: 4%;
+  font-size: 24px;
+  border-bottom: 2px solid white;
+}
+
+.skills-box2 ul{
+  position: absolute;
+  font-size: 20px;
+  line-height: 30px;
+  left: 50px;
+  top: 17%;
+}
+
+.overlay-boxes2{
+  position: fixed;
+  left: 590px;
+  top: 30%;
+  height: 390px;
+  width: 330px;
+  background-color: rgba(0, 0, 0, 0.1); 
+  z-index: 1;
+  pointer-events: none; 
 }
 
 .skills-box3{
@@ -265,12 +319,28 @@ header {
   top: 30%;
 }
 
-.overlay-boxes{
+.skills-box3 h3{
+  position: absolute;
+  left: 35px;
+  top: 4%;
+  font-size: 24px;
+  border-bottom: 2px solid white;
+}
+
+.skills-box3 ul{
+  position: absolute;
+  font-size: 20px;
+  line-height: 30px;
+  left: 50px;
+  top: 17%;
+}
+
+.overlay-boxes3{
   position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
+  left: 1050px;
+  top: 30%;
+  height: 390px;
+  width: 330px;
   background-color: rgba(0, 0, 0, 0.1); 
   z-index: 1;
   pointer-events: none; 
