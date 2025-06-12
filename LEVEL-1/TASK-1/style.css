@@ -369,14 +369,14 @@ header {
   position: absolute;
   font-size: 26px;
   top: 170px;
-  left: 150px;
+  left: 190px;
 }
 
 .resume-edu h4{
   position: absolute;
   font-size: 26px;
   top: 170px;
-  right: 550px;
+  right: 510px;
 }
 
 .resume-edu-info1{
@@ -386,7 +386,7 @@ header {
   object-fit: contain;
   box-shadow: 0 0 15px rgba(255, 204, 203, 0.2);
   position: absolute;
-  left: 150px;
+  left: 190px;
   top: 30%;
 }
 
@@ -406,7 +406,7 @@ header {
   object-fit: contain;
   box-shadow: 0 0 15px rgba(255, 204, 203, 0.2);
   position: absolute;
-  left: 150px;
+  left: 190px;
   top: 380px;
 }
 
@@ -426,7 +426,7 @@ header {
   object-fit: contain;
   box-shadow: 0 0 15px rgba(255, 204, 203, 0.2);
   position: absolute;
-  left: 820px;
+  left: 860px;
   top: 30%;
 }
 
@@ -448,4 +448,30 @@ header {
   background-color: rgba(0, 0, 0, 0.1); 
   z-index: 1;
   pointer-events: none; 
+}
+
+.dwnld-btn {
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 28px;
+  border: 2px solid #5a4f58; 
+  border-radius: 20px;
+  font-size: 18px;
+  transition: background 0.3s ease, color 0.3s ease;
+  left:680px;
+  bottom: 30px;
+}
+
+.dwnld-btn a{
+  color: white;
+  font-size: 20px;
+  transition: transform 0.3s ease, color 0.3s ease;
+  text-decoration: none;
+}
+
+.dwnld-btn:hover {
+  background-color: #3a2b2b;
+  color: #ffffff;
 }
