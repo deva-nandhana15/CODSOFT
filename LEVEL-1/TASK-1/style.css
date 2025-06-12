@@ -253,6 +253,7 @@ header {
 
 .skills-box1 ul{
   position: absolute;
+  font-weight:600;
   font-size: 20px;
   line-height: 30px;
   left: 50px;
@@ -291,6 +292,7 @@ header {
 
 .skills-box2 ul{
   position: absolute;
+  font-weight:600;
   font-size: 20px;
   line-height: 30px;
   left: 50px;
@@ -329,6 +331,7 @@ header {
 
 .skills-box3 ul{
   position: absolute;
+  font-weight: 600;
   font-size: 20px;
   line-height: 30px;
   left: 50px;
@@ -374,4 +377,75 @@ header {
   font-size: 26px;
   top: 170px;
   right: 550px;
+}
+
+.resume-edu-info1{
+  width: 440px;
+  height: 120px;
+  background-color: #705E5E;
+  object-fit: contain;
+  box-shadow: 0 0 15px rgba(255, 204, 203, 0.2);
+  position: absolute;
+  left: 150px;
+  top: 30%;
+}
+
+.resume-edu-info1 p1{
+  position: absolute;
+  font-size: 18px;
+  font-weight: 600;
+  left: 10px;
+  top: 5px;
+  line-height: 22px;
+}
+
+.resume-edu-info2{
+  width: 440px;
+  height: 120px;
+  background-color: #705E5E;
+  object-fit: contain;
+  box-shadow: 0 0 15px rgba(255, 204, 203, 0.2);
+  position: absolute;
+  left: 150px;
+  top: 380px;
+}
+
+.resume-edu-info2 p2{
+  position: absolute;
+  font-size: 18px;
+  font-weight: 600;
+  left: 10px;
+  top: 5px;
+  line-height: 22px;
+}
+
+.resume-edu-info3{
+  width: 440px;
+  height: 120px;
+  background-color: #705E5E;
+  object-fit: contain;
+  box-shadow: 0 0 15px rgba(255, 204, 203, 0.2);
+  position: absolute;
+  left: 820px;
+  top: 30%;
+}
+
+.resume-edu-info3 p3{
+  position: absolute;
+  font-size: 18px;
+  font-weight: 600;
+  left: 10px;
+  top: 5px;
+  line-height: 22px;
+}
+
+.overlay-edu{
+  position: fixed;
+  left: 1050px;
+  top: 30%;
+  height: 390px;
+  width: 330px;
+  background-color: rgba(0, 0, 0, 0.1); 
+  z-index: 1;
+  pointer-events: none; 
 }
