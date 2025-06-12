@@ -345,3 +345,33 @@ header {
   z-index: 1;
   pointer-events: none; 
 }
+
+.resume-head h1{
+  position: relative;
+  text-align: center;
+  margin-top: 4%;
+  font-size: 80px;
+  opacity: 0.2;
+}
+
+.resume-head h2{
+  position: absolute;
+  left: 690px;
+  top:80px;
+  font-size: 35px;
+  border-bottom: 2px solid white;
+}
+
+.resume-edu h3{
+  position: absolute;
+  font-size: 26px;
+  top: 170px;
+  left: 150px;
+}
+
+.resume-edu h4{
+  position: absolute;
+  font-size: 26px;
+  top: 170px;
+  right: 550px;
+}
