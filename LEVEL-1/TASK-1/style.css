@@ -506,4 +506,43 @@ header {
   right: 410px;
 }
 
-.contacts-text-field 
+.contacts-footer {
+  position: absolute;
+  height: 100px;
+  bottom: 0px;
+  width: 100%;
+  background-color: #705E5E;
+}
+
+.contacts-footer p1{
+  position: absolute;
+  font-weight:600;
+  font-size: 18px;
+  left: 70px;
+  top: 35px;
+}
+
+.name{
+  position: absolute;
+  left: 160px;
+  top: 230px;
+  width: 350px;
+  height: 35px;
+}
+
+.email{
+  position: absolute;
+  width: 350px;
+  height: 35px;
+  left: 530px;
+  top: 230px;
+}
+
+.subject{
+  position:absolute;
+  width: 720px;
+  height: 35px;
+  top: 270px;
+  left: 160px;
+  
+}
