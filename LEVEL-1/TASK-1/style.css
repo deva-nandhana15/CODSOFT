@@ -475,3 +475,35 @@ header {
   background-color: #3a2b2b;
   color: #ffffff;
 }
+
+.contacts-head h1{
+  position: relative;
+  text-align: center;
+  margin-top: 4%;
+  font-size: 80px;
+  opacity: 0.2;
+}
+
+.contacts-head h2{
+  position: absolute;
+  left: 640px;
+  top:80px;
+  font-size: 35px;
+  border-bottom: 2px solid white;
+}
+
+.contacts-secondary-head h3{
+  position: absolute;
+  font-size: 26px;
+  top: 170px;
+  left: 160px;
+}
+
+.contacts-secondary-head h4{
+  position: absolute;
+  font-size: 26px;
+  top: 170px;
+  right: 410px;
+}
+
+.contacts-text-field 
