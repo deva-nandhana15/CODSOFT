@@ -578,3 +578,10 @@ header {
   position: absolute; 
   right: 120;
 }
+
+.contacts-info-main{
+  position: absolute;
+  font-size: 18px;
+  right:180px;
+  top: 280px;
+}
