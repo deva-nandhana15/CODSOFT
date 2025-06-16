@@ -555,7 +555,6 @@ header {
   height: 160px;
 }
 
-
 .contacts-info p1{
   position:absolute;
   font-size: 20px;
@@ -608,4 +607,20 @@ header {
   font-size: 18px;
   color: white;
   transition: background 0.3s ease, color 0.3s ease;
+}
+
+.projects-head h1{
+  position: relative;
+  text-align: center;
+  margin-top: 4%;
+  font-size: 80px;
+  opacity: 0.2;
+}
+
+.projects-head h2{
+  position: absolute;
+  left: 690px;
+  top:80px;
+  font-size: 35px;
+  border-bottom: 2px solid white;
 }
