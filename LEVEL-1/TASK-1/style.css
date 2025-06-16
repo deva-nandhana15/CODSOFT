@@ -606,7 +606,6 @@ header {
   border-radius: 20px;
   font-size: 18px;
   color: white;
-  transition: background 0.3s ease, color 0.3s ease;
 }
 
 .projects-head h1{
@@ -623,4 +622,20 @@ header {
   top:80px;
   font-size: 35px;
   border-bottom: 2px solid white;
+}
+
+.filter-btn {
+  position: relative;
+  text-align: center;
+  font-size: 20px;
+  background: none;
+  border: none;
+  color: white;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.filter-btn:hover {
+  color:white;
+  text-decoration: underline;
 }
