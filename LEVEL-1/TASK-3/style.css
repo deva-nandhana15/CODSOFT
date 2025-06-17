@@ -54,9 +54,18 @@ button{
     font-weight: 700;
     font-family: Caveat, cursive;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s, transform 0.2s;
 }
 
-.equal{
+button:hover{
+    background-color: #afb59d;
+    transform: scale(1.05);
+}
+
+.buttons .equal {
     grid-column: span 2;
+}
+
+.placeholder {
+    visibility: hidden;
 }
