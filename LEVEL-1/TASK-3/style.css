@@ -5,11 +5,11 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-family: 'Caveat', cursive;
 }
 
 .calculator {
-  background-color: #2f4f2f; /* dark green */
+  background-color: #394931; /* dark green */
   padding: 20px;
   border-radius: 10px;
   width: 320px;
@@ -17,8 +17,8 @@ body {
 
 .calculator h1 {
   text-align: center;
-  color: #eaecc6;
-  font-size: 32px;
+  color: #d4d0b9;
+  font-size: 34px;
   margin-bottom: 20px;
 }
 
