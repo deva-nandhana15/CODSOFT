@@ -62,10 +62,6 @@ button:hover{
     transform: scale(1.05);
 }
 
-.buttons .equal {
+.equal{
     grid-column: span 2;
-}
-
-.placeholder {
-    visibility: hidden;
 }
