@@ -14,12 +14,49 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 30px 50px;
+  position: relative;
 }
 
-.header{
+header {
   display: flex;
+  height: 60px;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
   background-color: #010101;
+}
+
+header h1 {
+  margin-left: 30px;
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+}
+.nav-links a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 21px;
+  font-weight: bold;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: white;
+  transition: width 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #807d7d;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
 }
