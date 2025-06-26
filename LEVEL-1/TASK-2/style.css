@@ -90,10 +90,10 @@ header h1 {
   position: relative;
 }
 
-#slide1 { background-image: url('assets/intro2.jpg'); }
-#slide2 { background-image: url('assets/skincare1.jpg'); }
-#slide3 { background-image: url('assets/bodycare1.jpg'); }
-#slide4 { background-image: url('assets/haircare1.jpg'); }
+#slide1 { background-image: url('assets/intro/intro2.jpg'); }
+#slide2 { background-image: url('assets/intro/skincare1.jpg'); }
+#slide3 { background-image: url('assets/intro/bodycare1.jpg'); }
+#slide4 { background-image: url('assets/intro/haircare1.jpg'); }
 
 .text-overlay {
   position: absolute;
@@ -149,6 +149,8 @@ header h1 {
   text-align: center;
   margin-top: 40px;
   text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 8px;
 }
 
 .category-buttons-section {
@@ -201,40 +203,100 @@ header h1 {
 .bodycare {background-image: url('assets/buttons/bodycare.jpg');}
 .haircare {background-image: url('assets/buttons/haircare.jpg');}
 
-.brand-marquee {
-  background-color: #2b2a2a; /* Same as buttons background */
-  overflow: hidden;
-  white-space: nowrap;
-  padding: 20px 0;
+.brand-logos {
+  background-color: #2b2a2a;
+  padding: 0 60px 50px 60px; /* less top padding, slightly less bottom */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin-top: -80px; /* pulls the whole section upward */
 }
 
-.brand-track {
-  display: inline-block;
-  animation: scrollBrands 25s linear infinite;
+.brand-logos img {
+  height: 60px;
+  object-fit: contain;
+  filter: brightness(90%);
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
 
-.brand-track span {
-  display: inline-block;
-  margin: 0 60px;
-  font-size: 24px;
-  font-weight: 600;
+.brand-logos img:hover {
+  transform: scale(1.05);
+  filter: brightness(110%);
+}
+
+.masonry-gallery {
+  padding: 50px 30px;
+  margin: 0 auto;
+  background-color: #5c5c5c;
+  position: relative; 
+  z-index: 1;
+}
+
+.masonry-gallery::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.65); 
+  z-index: -1; 
+}
+
+.masonry-gallery h2 {
   font-family: 'Montserrat', sans-serif;
-  color: #ffffffcc;
+  font-size: 44px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 8px;
+}
+
+.masonry {
+  column-count: 3;
+  column-gap: 20px;
+}
+
+.masonry a {
+  break-inside: avoid;
+  margin-bottom: 20px;
+  display: block;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease;
-  letter-spacing: 1px;
 }
 
-.brand-track span:hover {
-  transform: scale(1.1);
-  color: #fff;
+.masonry img {
+  width: 100%;
+  display: block;
+  transition: transform 0.3s ease;
 }
 
-@keyframes scrollBrands {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
+.masonry a:hover img {
+  transform: scale(1.03);
+}
+
+.load-more-wrapper {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.load-more-btn {
+  padding: 12px 30px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #ffffff22;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.load-more-btn:hover {
+  background-color: #ffffff44;
 }
 
