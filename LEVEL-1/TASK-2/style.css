@@ -226,7 +226,7 @@ header h1 {
 }
 
 .masonry-gallery {
-  padding: 50px 50px;
+  padding: 50px 70px;
   margin: 0 auto;
   background-color: #5c5c5c;
   position: relative; 
@@ -243,6 +243,13 @@ header h1 {
   z-index: -1; 
 }
 
+.masonry a.spacer {
+  height: 0;
+  opacity: 0;
+  pointer-events: none;
+  margin-bottom: 0;
+}
+
 .masonry-gallery h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 44px;
@@ -252,11 +259,11 @@ header h1 {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 8px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .masonry {
-  column-count: 4;
+  column-count: 5;
   column-gap: 20px;
 }
 
@@ -285,7 +292,7 @@ header h1 {
 
 .load-more-wrapper {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .load-more-btn {
