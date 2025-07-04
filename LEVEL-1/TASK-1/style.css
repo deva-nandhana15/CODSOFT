@@ -521,6 +521,47 @@ header {
   background-color: #705E5E;
 }
 
+.contact-socials{
+  position: absolute;
+  left: 160px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.contact-socials a {
+  color: white;
+  font-size: 24px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.contacts-info p2{
+  position:absolute;
+  font-size: 20px;
+  font-weight: 600;
+  left:160px;
+  top:210px;
+}
+
+.vertical-divider1{
+  position: absolute;
+  top: 39%;
+  left: 200px;
+  width: 1px;
+  background-color: #ccc;
+  height: 150px;
+}
+
+.contact-info-sub{
+  position: absolute;
+  font-size: 19px;
+  left:220px;
+  row-gap: 60px;
+  top: 280px;
+}
+
 .contacts-footer p1{
   position: absolute;
   font-weight:600;
@@ -563,23 +604,6 @@ header {
   font-size: 18px;
   right:170px;
   top: 280px;
-}
-
-.submit{
-  position: absolute;
-  top:550px;
-  left:160px;
-  height:40px;
-  width:190px;
-  display: inline-flex;
-  text-decoration: none;
-  align-items: center;
-  gap: 10px;
-  padding: 14px 28px;
-  border: 2px solid #5a4f58; 
-  border-radius: 20px;
-  font-size: 18px;
-  color: white;
 }
 
 .projects-head h1{
