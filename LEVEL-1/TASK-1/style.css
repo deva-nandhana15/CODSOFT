@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Josefin Slab', serif;
-  background-color: #2A1313;
+  background-color: #21040d;
   color: white;
   height: 100%;
 }
@@ -242,7 +242,7 @@ header {
 .skills-box1{
   width: 330px;
   height: 390px;
-  background-color: #705E5E;
+  background-color: #523933;
   object-fit: contain;
   box-shadow: 0 0 15px rgba(255, 204, 203, 0.2);
   position: absolute;
@@ -281,7 +281,7 @@ header {
 .skills-box2{
   width: 330px;
   height: 390px;
-  background-color: #705E5E;
+  background-color:#523933;
   object-fit: contain;
   box-shadow: 0 0 15px rgba(255, 204, 203, 0.2);
   position: absolute;
@@ -320,7 +320,7 @@ header {
 .skills-box3{
   width: 330px;
   height: 390px;
-  background-color: #705E5E;
+  background-color: #523933;
   object-fit: contain;
   box-shadow: 0 0 15px rgba(255, 204, 203, 0.2);
   position: absolute;
